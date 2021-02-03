@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:id="@+id/activity_usermenu"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:contecom.w3xplorers.helloct.activity.UsermenuActivityvity"-->
+    <!--android:background="@drawable/gradient">-->
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="@drawable/gradient"
+        tools:context="com.w3xplorers.helloct.activity.UsermenuActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:contentInsetLeft="10dp"
+            app:contentInsetStart="10dp"
+            android:minHeight="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:titleTextColor="@android:color/white"
+            android:background="?attr/colorPrimary">
+
+            <ImageView
+                android:src="@drawable/logo"
+                android:paddingLeft="5dp"
+                android:layout_width="65dp"
+                android:layout_height="65dp" />
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello CMP"
+                android:textColor="@android:color/white"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:paddingLeft="15dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-smallcaps" />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:text="ব্যবহার নির্দেশিকা"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                android:gravity="center" />
+
+            <TextView
+                android:text="@string/user1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user1"
+                android:padding="10dp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:text="@string/user2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user2"
+                android:padding="10dp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:text="@string/user3Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user3Title"
+                android:padding="5dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+            <TextView
+                android:text="@string/user3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user3"
+                android:textColor="@android:color/black"
+                android:padding="10dp" />
+            <TextView
+                android:text="@string/user4Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user4Title"
+                android:textColor="@android:color/black"
+                android:textStyle="normal|bold"
+                android:padding="5dp" /><TextView
+            android:text="@string/user4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/user4"
+            android:textColor="@android:color/black"
+            android:padding="10dp" />
+            <TextView
+                android:text="@string/user5Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user5Title"
+                android:textColor="@android:color/black"
+                android:padding="5dp"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:text="@string/user5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user5"
+                android:textColor="@android:color/black"
+                android:padding="10dp" />
+            <TextView
+                android:text="@string/user6Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user6Title"
+                android:textColor="@android:color/black"
+                android:textStyle="normal|bold"
+                android:padding="5dp" />
+            <TextView
+                android:text="@string/user6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user6"
+                android:textColor="@android:color/black"
+                android:padding="10dp" />
+            <TextView
+                android:text="@string/user7Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user7Title"
+                android:textColor="@android:color/black"
+                android:padding="5dp"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:text="@string/user7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user7"
+                android:textColor="@android:color/black"
+                android:padding="10dp" />
+            <TextView
+                android:text="@string/user8Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user8Title"
+                android:textColor="@android:color/black"
+                android:padding="5dp"
+                android:textColorHighlight="@android:color/black"
+                android:textStyle="bold" />
+            <TextView
+                android:text="@string/user8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user8"
+                android:textColor="@android:color/black"
+                android:padding="10dp" />
+            <TextView
+                android:text="@string/user9Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user9Title"
+                android:textColor="@android:color/black"
+                android:padding="5dp"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:text="@string/user9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user9"
+                android:textColor="@android:color/black"
+                android:padding="10dp" />
+            <TextView
+                android:text="@string/user10Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user10Title"
+                android:textColor="@android:color/black"
+                android:padding="5dp"
+                android:textStyle="bold" />
+            <TextView
+                android:text="@string/user10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user10"
+                android:textColor="@android:color/black"
+                android:padding="10dp" />
+            <TextView
+                android:text="@string/user11Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user11Title"
+                android:textColor="@android:color/black"
+                android:padding="5dp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="@string/user11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user11"
+                android:textColor="@android:color/black"
+                android:padding="10dp" />
+            <TextView
+                android:text="@string/user12Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user12Title"
+                android:textColor="@android:color/black"
+                android:padding="5dp"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:text="@string/user12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user12"
+                android:textColor="@android:color/black"
+                android:padding="10dp" />
+
+            <TextView
+                android:text="@string/user13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user13"
+                android:textColor="@android:color/black"
+                android:padding="10dp" />
+            <TextView
+                android:text="@string/user14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user14"
+                android:textColor="@android:color/black"
+                android:padding="10dp" />
+            <TextView
+                android:text="@string/user15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user15"
+                android:textColor="@android:color/black"
+                android:padding="10dp" />
+
+            <TextView
+                android:text="@string/user16Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user16Title"
+                android:textColor="@android:color/black"
+                android:padding="5dp"
+                android:textStyle="bold" />
+            <TextView
+                android:text="@string/user16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user16"
+                android:textColor="@android:color/black"
+                android:padding="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
